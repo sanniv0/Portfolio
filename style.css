@@ -165,8 +165,72 @@ footer {
 }
 
 @media (max-width: 768px) {
-    body { font-size: 1.2rem; }
-    .glitch { font-size: 2rem; }
-    .section-title { font-size: 1.5rem; }
-    nav { flex-direction: column; }
+    body {
+        font-size: 1.2rem;
+    }
+
+    .container {
+        padding: 1rem;
+    }
+
+    .glitch {
+        font-size: 2rem;
+    }
+
+    #typewriter {
+        font-size: 1.2rem;
+    }
+
+    nav {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    .nav-link {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .section-title {
+        font-size: 1.5rem;
+    }
+
+    .nes-container.with-title > .title {
+        font-size: 1rem;
+    }
+
+    .portfolio-grid {
+        grid-template-columns: 1fr;
+    }
+
+    footer {
+        font-size: 0.7rem;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        font-size: 1rem;
+    }
+
+    .glitch {
+        font-size: 1.5rem;
+    }
+
+    #typewriter {
+        font-size: 1rem;
+    }
+
+    .section-title {
+        font-size: 1.2rem;
+    }
+
+    .nes-container.with-title > .title {
+        font-size: 0.9rem;
+    }
+
+    .nes-btn {
+        padding: 0.6rem 1rem;
+        font-size: 0.9rem;
+    }
 }
